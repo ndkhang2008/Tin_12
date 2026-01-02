@@ -1,12 +1,104 @@
-h1 {
-    font-family: 'ThuPhap', 'Brush Script MT', cursive;
-  font-size: 32px;
-  line-height: 1.6;
-  letter-spacing: 1px;
+html, body {
+  height: 100%;
 }
 
-/* h1 {
-    font-family: 'Great Vibes', cursive;
-  font-size: 30px;
-  line-height: 1.6;
-} */
+body {
+  margin: 0;
+}
+.wrap {
+  background-image: url(https://phongvu.vn/cong-nghe/wp-content/uploads/2025/10/hinh-nen-hoa-12-1.jpg);
+  background-size: cover;  /* Để ảnh phủ toàn bộ */
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* .header {
+font-family: 'Dancing Script', cursive;
+            font-size: 48px;
+            font-weight: 700;
+            text-align: center;
+            color: #333;
+            margin: 20px 0;} */
+.header {
+  padding: 5pc 0 2pc 0;
+  margin: 0;
+  font-family: 'Great Vibes', cursive; /* Hoặc VN Lovelista nếu cài */
+  font-size: 52px;
+  font-style: italic;
+  text-shadow: 2px 2px 4px rgba(139,69,19,0.5);
+  letter-spacing: 2px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.group {
+  display: block;
+  margin: auto;
+  /* background-color: rgba(12, 133, 238, 0.592); */
+  height: 60%;
+  width: 88%;
+  /* border-radius: 5pc; */
+  /* border: 4px solid blue; */
+  display: flex;
+}
+
+.group-one, .group-two, .group-three {
+  display: block;
+  padding: 2pc;
+  flex: 1;
+  border: 4px solid rgb(255, 255, 255, 0.6);
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 3pc;
+  padding: 2pc;
+}
+
+.group-one:hover, .group-two:hover, .group-three:hover {
+  border: 4px solid rgb(255, 255, 255, 1);
+  background-color: rgba(255,255,255,0.6);
+}
+
+.group-two, .group-three {
+  margin-left: 2%;
+}
+
+.group-one {}
+
+.group-two {}
+
+.group-three {}
+
+/* ITEM */
+
+.item {
+  display: flex;
+  flex-direction: column;
+}
+
+.item__header, .item__content{
+  text-align: center;
+}
+
+.item__header {
+  margin-top: 8%;
+  font-size: 34px;
+}
+
+.item__content {
+  margin: 0;
+  font-size: 18px;
+}
+
+.item__icon {
+  color: rgb(0, 0, 0);
+  font-size: 8pc;
+  margin: 2pc auto;
+}
+
+/* slogan */
+
+.slogan {
+  color: aliceblue;
+  text-align: center;
+  margin-top: 20px;
+}
