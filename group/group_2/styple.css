@@ -1,3 +1,60 @@
-h1 {
-    color: aquamarine;
-}
+body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .content {
+            padding: 20px;
+        }
+    
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            display: flex; /* Chia cột nếu cần */
+            gap: 20px;
+            padding: 0 15px;
+        }
+
+        /* Phần nội dung chính */
+        main {
+            flex: 3;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        /* Cột bên cạnh (Sidebar) - Tùy chọn */
+        aside {
+            flex: 1;
+            background: #eee;
+            padding: 20px;
+            border-radius: 8px;
+            height: fit-content;
+        }
+
+        h1 { color: #2c3e50; }
+        h2 { color: #34495e; border-left: 4px solid #3498db; padding-left: 10px; }
+        p { margin-bottom: 15px; }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+
+        .content .img_wrap {
+            text-align: center;
+            display: flex;
+        }
+        .content .img_item {
+            height: 249px;
+            margin-left: 18px;
+        }
+
+      

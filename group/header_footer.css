@@ -1,0 +1,122 @@
+:root {
+    --primary-color : #214557;
+    --text_header-color : #d5d1d1;
+    --hover_header-color : #e0f7ff;
+}
+
+body { margin: 0 ;}
+
+/* header_title */
+
+.header {
+    background-color: var(--primary-color);
+    box-shadow: 2px 14px 9px #99bdcf;
+}
+
+.title {
+    padding: 20px 5% 18px;
+    display: flex;
+    align-items: center;
+}
+
+.title_logo {
+    color: var(--text_header-color);
+    width: auto;
+    align-self: center;
+    font-size: 124px
+}
+
+.title_logo:hover {
+    color: var(--hover_header-color);
+}
+
+.title_content {
+    color: var(--text_header-color);
+    margin: 0;
+    font-size: 63px;
+    margin-left: 16%;
+}
+ /* header_menu */
+
+.header_menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 5px 26px;
+    display: flex;
+}
+
+.menu_item {
+    border-left: 0.5px solid var(--text_header-color);
+    border-right: 0.5px solid var(--text_header-color);
+}
+
+.menu_item:first-child {
+    border-left: 0 !important;
+}
+
+.menu_item:last-child {
+    border-right: 0 !important;
+}
+
+.menu_item .item_link {
+    color: var(--text_header-color);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 40px;
+}
+
+.menu_item .item_link:hover {
+    color: var(--hover_header-color);
+}
+
+/* FOOTER */
+
+.box_footer{
+  display: block;
+  background-color: var(--primary-color);
+  padding: 2%;
+  box-shadow: 0 -4px 10px #112129;
+}
+
+.name_group {
+  color: var(--text_header-color);
+  height: 100px ;
+  display: block;
+  font-family: 'Dancing Script', cursive;
+            font-size: 48px;
+            font-weight: 700;
+}
+
+.introduce_wrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+.wrap_name {
+    padding-left: 40px;
+}
+
+.name_item {
+    font-size: 22px;
+    color: var(--text_header-color);
+}
+
+.wrap_img {
+}
+
+.img_item {
+    display: flex;
+    margin-bottom: 2px;
+}
+
+.img_item--img {
+    width: auto;
+    height: 65px;
+    border-radius: 4px;
+    margin-right: 20px;
+    border: 1px solid #fff;
+}
+
+.img_item--content {
+    color: var(--text_header-color);
+}

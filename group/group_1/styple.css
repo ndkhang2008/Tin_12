@@ -1,3 +1,42 @@
-h1 {
-    color: aqua;
+
+/* CONTENT */
+
+.content {
+    padding: 50px 36px;
 }
+
+.content_main {}
+
+.main_title {
+    margin: 0;
+    font-size: 22px;
+    color: var(--primary-color);
+}
+
+.content_describe {
+    display: flex;
+}
+
+.describe_details {
+    display: block;
+    padding: 0 12px;
+}
+.describe_img {
+    flex: 1;
+    display: flex;
+}
+
+.img_wrap {}
+
+.img_item {}
+
+.img_item--item {
+    width: auto;
+    height: 100px;
+    margin-right: 2px;
+}
+
+.img_map {
+    height: 192px;
+}
+
