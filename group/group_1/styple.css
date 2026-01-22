@@ -14,7 +14,6 @@
 }
 
 .content_describe {
-    display: flex;
 }
 
 .describe_details {
@@ -24,6 +23,7 @@
 .describe_img {
     flex: 1;
     display: flex;
+    padding-left: 46px;
 }
 
 .img_wrap {}
@@ -37,6 +37,6 @@
 }
 
 .img_map {
-    height: 192px;
+    height: 200px;
 }
 

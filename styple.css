@@ -10,13 +10,13 @@ body {
   background-size: cover;  /* Để ảnh phủ toàn bộ */
   display: block;
   /* width: 100%; */
-  height: 100%;
   border-bottom: 4px solid #FFF
 }
 
 .box_wrap{
+  background-color: #28020285;
   height: 100%;
-  background-color: #28020285;;
+  padding-bottom: 40px;
 }
 
 /* .header {
