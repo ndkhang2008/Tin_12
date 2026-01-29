@@ -19,3 +19,12 @@ body {
                 width: auto;
                 height: 300px;
         }
+
+        .content .img_wrap {
+            text-align: center;
+            display: flex;
+        }
+        .content .img_item {
+            height: 249px;
+            margin-left: 18px;
+        }
